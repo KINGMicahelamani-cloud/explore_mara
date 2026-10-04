@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Mara — The Big Five Wildlife Experience</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="nav-container">
+            <a href="index.html" class="brand-logo">
+                <img src="African Logo.png" style="width: 65px;" >            
+                <div>
+                    <span class="brand-name">Explore Mara</span>
+                    <span class="brand-tag">Wildlife Education</span>
+                </div>
+            </a>
+
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link active">Big Five</a></li>
+                    <li><a href="big_nine.html" class="nav-link">Big Nine</a></li>
+                    <li><a href="#" class="nav-link">Mammals</a></li>
+                    <li><a href="#" class="nav-link">Birds</a></li>
+                </ul>
+            </nav>
+
+            <button class="hamburger-btn" id="hamburgerBtn" aria-label="Open menu">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="drawer-overlay" id="drawerOverlay"></div>
+    <div class="mobile-drawer" id="mobileDrawer">
+        <button class="drawer-close" id="drawerClose" aria-label="Close menu">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <ul class="drawer-menu">
+            <li><a href="#" class="drawer-link active">Big Five</a></li>
+            <li><a href="#" class="drawer-link">Big Nine</a></li>
+            <li><a href="#" class="drawer-link">Mammals</a></li>
+            <li><a href="#" class="drawer-link">Birds</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-header">
+                <span class="hero-subtitle-tag">Kenya's Natural Wonder</span>
+                <h1 class="hero-title">The Big Five</h1>
+                <p class="hero-description">Experience the legendary iconic predators and giants that define the vast savanna ecosystem of the Maasai Mara National Reserve.</p>
+            </div>
+
+            <!-- 5 Clickable Animal Selector Tabs -->
+            <div class="tabs-wrapper">
+                <div class="animal-tabs" id="animalTabsContainer">
+                    <button class="tab-btn active" data-animal="lion">
+                        <span class="tab-num">01</span> Lion
+                    </button>
+                    <button class="tab-btn" data-animal="elephant">
+                        <span class="tab-num">02</span> Elephant
+                    </button>
+                    <button class="tab-btn" data-animal="rhino">
+                        <span class="tab-num">03</span> Black Rhino
+                    </button>
+                    <button class="tab-btn" data-animal="leopard">
+                        <span class="tab-num">04</span> Leopard
+                    </button>
+                    <button class="tab-btn" data-animal="buffalo">
+                        <span class="tab-num">05</span> Buffalo
+                    </button>
+                </div>
+            </div>
+
+            <!-- Central Organic Safari Viewing Oval Window -->
+            <div class="display-stage">
+                <img id="displayBg" class="display-bg" src="https://unsplash.com/photos/brown-lion-on-green-grass-field-UxHol6SwLyM" alt="Lion in Maasai Mara">
+                <div class="display-overlay"></div>
+                
+                <div class="display-content">
+                    <div class="display-meta">
+                        <span id="displayTagline" class="display-tagline">Apex Ruler of the Savanna</span>
+                        <span id="displayCounter" class="display-counter">01 / 05</span>
+                    </div>
+
+                    <div class="display-title-group">
+                        <h2 id="displayCommonName" class="display-common-name">African Lion</h2>
+                        <span id="displayScientificName" class="display-scientific-name">Panthera leo</span>
+                    </div>
+
+                    <div class="display-actions">
+                        <button id="audioBtn" class="btn-primary">
+                            <i class="fa-solid fa-volume-high"></i> <span id="audioBtnText">Hear the Lion</span>
+                        </button>
+                        <a href="#animalDetails" class="btn-secondary">
+                            <i class="fa-solid fa-arrow-down"></i> Explore More
+                        </a>
+                    </div>
+                    
+                    <div class="audio-demo-notice">
+                        <i class="fa-solid fa-circle-info"></i>
+                        <span>copyright reasons reserved 2026.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="animalDetails" class="details-section">
+            <div class="section-header">
+                <span class="section-tag">Species Profile</span>
+                <h2 id="detailsTitle" class="section-title">African Lion Details</h2>
+                <p id="detailsDesc" class="details-lead">Loading species description...</p>
+            </div>
+
+            <div class="fact-grid">
+                <!-- Fact 1: Habitat -->
+                <div class="fact-card">
+                    <div class="fact-icon-wrapper">
+                        <i class="fa-solid fa-mountain-sun"></i>
+                    </div>
+                    <h3 class="fact-card-title">Habitat</h3>
+                    <p id="factHabitat" class="fact-card-body">Open grasslands, scrublands, and acacia woodlands.</p>
+                </div>
+
+                <!-- Fact 2: Diet -->
+                <div class="fact-card">
+                    <div class="fact-icon-wrapper">
+                        <i class="fa-solid fa-utensils"></i>
+                    </div>
+                    <h3 class="fact-card-title">Diet</h3>
+                    <p id="factDiet" class="fact-card-body">Hypercarnivore preying on wildebeest, zebras, and buffalo.</p>
+                </div>
+
+                <!-- Fact 3: Social Behaviour -->
+                <div class="fact-card">
+                    <div class="fact-icon-wrapper">
+                        <i class="fa-solid fa-users-rays"></i>
+                    </div>
+                    <h3 class="fact-card-title">Social Structure</h3>
+                    <p id="factSocial" class="fact-card-body">Forms social prides dominated by related females.</p>
+                </div>
+
+                <!-- Fact 4: What to Look For -->
+                <div class="fact-card">
+                    <div class="fact-icon-wrapper">
+                        <i class="fa-solid fa-binocular"></i>
+                    </div>
+                    <h3 class="fact-card-title">What to Look For</h3>
+                    <p id="factLookFor" class="fact-card-body">Look under shady acacia trees during hot afternoons.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="spotlight-section">
+            <div class="spotlight-card">
+                <div class="spotlight-image-wrapper">
+                    <img id="spotlightImg" class="spotlight-image" src="https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=800&q=80" alt="Lion Spotlight">
+                </div>
+                <div class="spotlight-content">
+                    <div class="spotlight-badge">
+                        <i class="fa-solid fa-lightbulb"></i> Did You Know?
+                    </div>
+                    <h3 id="spotlightTitle" class="spotlight-title">Roars Echo For Miles</h3>
+                    <p id="spotlightText" class="spotlight-text">A male lion's roar can reach 114 decibels and be heard up to 8 kilometers (5 miles) away across the open savanna.</p>
+                    <div class="spotlight-action">
+                        <a href="#" id="returnToTopBtn" class="btn-secondary" style="background: rgba(255,255,255,0.08);">
+                            <i class="fa-solid fa-arrow-up"></i> Return to Selector
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#" class="brand-logo">
+                        <i class="fa-solid fa-compass"></i>
+                        <div>
+                            <span class="brand-name">Explore Mara</span>
+                            <span class="brand-tag">Wildlife Editorial</span>
+                        </div>
+                    </a>
+                    <p class="footer-tagline">An interactive wildlife editorial celebrating the rich biodiversity and conservation legacy of the Maasai Mara ecosystem.</p>
+                </div>
+
+                <div class="footer-links">
+                    <div>
+                        <h4 class="footer-group-title">Explore</h4>
+                        <ul class="footer-list">
+                            <li><a href="#">The Big Five</a></li>
+                            <li><a href="#">The Big Nine</a></li>
+                            <li><a href="#">Mara Mammals</a></li>
+                            <li><a href="#">Avian Life</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="footer-group-title">Conservation</h4>
+                        <ul class="footer-list">
+                            <li><a href="#">Mara Elephant Project</a></li>
+                            <li><a href="#">Cheetah Conservation</a></li>
+                            <li><a href="#">Community Conservancies</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Explore Mara Wildlife Experience. All rights reserved.</p>
+                <p>Designed for Safari & Conservation Enthusiasts.</p>
+            </div>
+        </div>
+    </footer>
+<script src="index.js"></script>
+</body>
+</html>
