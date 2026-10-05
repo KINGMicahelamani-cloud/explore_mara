@@ -162,7 +162,7 @@
                 name: "African Monkeys",
                 scientific: "Diceros bicornis",
                 tagline: "lightning-fast hunter of the savanna.",
-                image: "https://images.unsplash.com/photo-1568184198461-ce97999ed2d9?q=80&w=1198&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                image: "https://images.unsplash.com/photo-1618661057302-8b01d93bd898?q=80&w=881&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 spotlightImg: "https://images.unsplash.com/photo-1618661057302-8b01d93bd898?q=80&w=881&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 description: "Critically endangered and fiercely solitary, the Black Rhino is one of the Mara's most prized sightings. Known for their hooked upper lip designed for browsing thorny shrubs.",
                 habitat: "Dense scrubby thickets, riverine valleys, and acacia bushes.",
