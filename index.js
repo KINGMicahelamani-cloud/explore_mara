@@ -188,14 +188,30 @@
                 factTitle: "Prehistoric Speed",
                 fact: "Cheetahs can't roar like lions! Instead, they can purr, chirp, meow, and make a bird-like chirping sound.",
                 // soundUrl: "assets/audio/rhino_snort.mp3" // UNCOMMENT & ADD MP3 PATH HERE
-            },
-            whitedove: {
+                },
+            ostrich: {
                 number: "12",
                 name: "African foxes",
                 scientific: "Diceros bicornis",
                 tagline: "lightning-fast hunter of the savanna.",
                 image: "https://images.unsplash.com/photo-1568639610863-8a0516128d82?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                spotlightImg: "https://images.unsplash.com/photo-1721230814999-82fef7e27b3a?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                spotlightImg: "https://plus.unsplash.com/premium_photo-1661814331838-fda059da2e8b?q=80&w=1174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                description: "Critically endangered and fiercely solitary, the Black Rhino is one of the Mara's most prized sightings. Known for their hooked upper lip designed for browsing thorny shrubs.",
+                habitat: "Dense scrubby thickets, riverine valleys, and acacia bushes.",
+                diet: "Browsers that feed on woody trees, thorny bushes, shoots, and fruit.",
+                social: "Strictly solitary creatures except during mating or when mothers raise calves.",
+                lookFor: "Early morning or late afternoon foraging near dense thickets in the Mara Triangle.",
+                factTitle: "Prehistoric Speed",
+                fact: "Cheetahs can't roar like lions! Instead, they can purr, chirp, meow, and make a bird-like chirping sound.",
+                // soundUrl: "assets/audio/rhino_snort.mp3" // UNCOMMENT & ADD MP3 PATH HERE
+            },
+            whitedove: {
+                number: "13",
+                name: "African foxes",
+                scientific: "Diceros bicornis",
+                tagline: "lightning-fast hunter of the savanna.",
+                image: "https://images.unsplash.com/photo-1568639610863-8a0516128d82?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                spotlightImg: "https://plus.unsplash.com/premium_photo-1661814331838-fda059da2e8b?q=80&w=1174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 description: "Critically endangered and fiercely solitary, the Black Rhino is one of the Mara's most prized sightings. Known for their hooked upper lip designed for browsing thorny shrubs.",
                 habitat: "Dense scrubby thickets, riverine valleys, and acacia bushes.",
                 diet: "Browsers that feed on woody trees, thorny bushes, shoots, and fruit.",
@@ -206,7 +222,7 @@
                 // soundUrl: "assets/audio/rhino_snort.mp3" // UNCOMMENT & ADD MP3 PATH HERE
             },
             fox: {
-                number: "11",
+                number: "14",
                 name: "African foxes",
                 scientific: "Diceros bicornis",
                 tagline: "lightning-fast hunter of the savanna.",
