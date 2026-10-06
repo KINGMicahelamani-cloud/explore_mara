@@ -258,7 +258,7 @@
                 name: "Eagle",
                 scientific: "Bald Eagle",
                 tagline: "big but strong bird.",
-                image: "https://plus.unsplash.com/premium_photo-1661889505655-97a2f9007124?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                image: "https://images.unsplash.com/photo-1780776290798-c354c97351ff?q=80&w=1140&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 spotlightImg: "https://plus.unsplash.com/premium_photo-1664303510541-2eedfe6bdb91?q=80&w=1159&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 description: "Critically endangered and fiercely solitary, the Black Rhino is one of the Mara's most prized sightings. Known for their hooked upper lip designed for browsing thorny shrubs.",
                 habitat: "Dense scrubby thickets, riverine valleys, and acacia bushes.",
