@@ -226,7 +226,7 @@
                 name: "Parrots",
                 scientific: "African Parrots",
                 tagline: "colourful but annoying bird.",
-                image: "https://images.unsplash.com/photo-1544923408-75c5cef46f14?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                image: "https://images.unsplash.com/photo-1703356110647-bde745a4f3ce?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 spotlightImg: "https://images.unsplash.com/photo-1616902509409-a624c4f31a56?q=80&w=566&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 description: "Critically endangered and fiercely solitary, the Black Rhino is one of the Mara's most prized sightings. Known for their hooked upper lip designed for browsing thorny shrubs.",
                 habitat: "Dense scrubby thickets, riverine valleys, and acacia bushes.",
