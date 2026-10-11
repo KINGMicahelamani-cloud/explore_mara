@@ -286,7 +286,7 @@
                 // soundUrl: "assets/audio/rhino_snort.mp3" // UNCOMMENT & ADD MP3 PATH HERE
             },
             owl: {
-                number: "14",
+                number: "18",
                 name: "Owl",
                 scientific: "Owl",
                 tagline: "big and tiredless bird.",
@@ -350,7 +350,7 @@
                 displayBg.src = data.image;
                 displayBg.alt = data.name;
                 displayTagline.textContent = data.tagline;
-                displayCounter.textContent = `${data.number} / 14`;
+                displayCounter.textContent = `${data.number} / 18`;
                 displayCommonName.textContent = data.name;
                 displayScientificName.textContent = data.scientific;
                 audioBtnText.textContent = `Hear the ${data.name.split(" ").pop()}`;
