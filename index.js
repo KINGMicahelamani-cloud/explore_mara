@@ -350,7 +350,7 @@
                 displayBg.src = data.image;
                 displayBg.alt = data.name;
                 displayTagline.textContent = data.tagline;
-                displayCounter.textContent = `${data.number} / 05`;
+                displayCounter.textContent = `${data.number} / 14`;
                 displayCommonName.textContent = data.name;
                 displayScientificName.textContent = data.scientific;
                 audioBtnText.textContent = `Hear the ${data.name.split(" ").pop()}`;
