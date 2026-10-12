@@ -207,8 +207,8 @@
             },
             whitedove: {
                 number: "13",
-                name: "African foxes",
-                scientific: "Diceros bicornis",
+                name: "Dove",
+                scientific: "White Dove",
                 tagline: "white and peaceful cretures.",
                 image: "https://images.unsplash.com/photo-1568639610863-8a0516128d82?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 spotlightImg: "https://plus.unsplash.com/premium_photo-1661814331838-fda059da2e8b?q=80&w=1174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
