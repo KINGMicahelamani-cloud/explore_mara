@@ -487,28 +487,20 @@ audio.play();
 
         // Initialize default view
         updateAnimalDisplay("lion");
-        async function initMap() {
-  // Request the core Map library from Google
-  const { Map } = await google.maps.importLibrary("maps");
-  const { Marker } = await google.maps.importLibrary("marker");
-
-  // Define the coordinates for the center of the map (e.g., Nairobi coordinates)
+        function initMap() {
+  // Define coordinates (e.g., Nairobi)
   const location = { lat: -1.286389, lng: 36.817223 };
 
-  // Create the map instance attached to our HTML 'map' div
-  const map = new Map(document.getElementById("map"), {
+  // Create the map using the global google.maps object
+  const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 14,
     center: location,
-    mapId: "DEMO_MAP_ID", // Standard demo map identifier
   });
 
   // Add a marker pin to the map
-  const marker = new Marker({
+  const marker = new google.maps.Marker({
     position: location,
     map: map,
     title: "Our Location",
   });
 }
-
-// Run the function when the page loads
-initMap();
