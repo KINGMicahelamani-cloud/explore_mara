@@ -153,7 +153,7 @@
                 diet: "Browsers that feed on woody trees, thorny bushes, shoots, and fruit.",
                 social: "Strictly solitary creatures except during mating or when mothers raise calves.",
                 lookFor: "Early morning or late afternoon foraging near dense thickets in the Mara Triangle.",
-                factTitle: "Prehistoric Speed",
+                factTitle: "Unique Pstterns",
                 fact: "Every zebra has a unique pattern of stripes, just like human fingerprints.",
                 // soundUrl: "assets/audio/rhino_snort.mp3" // UNCOMMENT & ADD MP3 PATH HERE
             },
@@ -170,7 +170,7 @@
                 social: "Strictly solitary creatures except during mating or when mothers raise calves.",
                 lookFor: "Early morning or late afternoon foraging near dense thickets in the Mara Triangle.",
                 factTitle: "Prehistoric Speed",
-                fact: "Cheetahs can't roar like lions! Instead, they can purr, chirp, meow, and make a bird-like chirping sound.",
+                fact: "Some monkeys use tools, such as sticks, to help them find food.",
                 // soundUrl: "assets/audio/rhino_snort.mp3" // UNCOMMENT & ADD MP3 PATH HERE
             },
              fox: {
