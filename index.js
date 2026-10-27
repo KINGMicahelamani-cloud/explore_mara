@@ -154,7 +154,7 @@
                 social: "Strictly solitary creatures except during mating or when mothers raise calves.",
                 lookFor: "Early morning or late afternoon foraging near dense thickets in the Mara Triangle.",
                 factTitle: "Prehistoric Speed",
-                fact: "Cheetahs can't roar like lions! Instead, they can purr, chirp, meow, and make a bird-like chirping sound.",
+                fact: "Every zebra has a unique pattern of stripes, just like human fingerprints.",
                 // soundUrl: "assets/audio/rhino_snort.mp3" // UNCOMMENT & ADD MP3 PATH HERE
             },
              monkey: {
@@ -186,7 +186,7 @@
                 social: "Strictly solitary creatures except during mating or when mothers raise calves.",
                 lookFor: "Early morning or late afternoon foraging near dense thickets in the Mara Triangle.",
                 factTitle: "Prehistoric Speed",
-                fact: "Cheetahs can't roar like lions! Instead, they can purr, chirp, meow, and make a bird-like chirping sound.",
+                fact: "Foxes have excellent hearing and can detect small animals moving underground.",
                 // soundUrl: "assets/audio/rhino_snort.mp3" // UNCOMMENT & ADD MP3 PATH HERE
                 },
             ostrich: {
@@ -202,7 +202,7 @@
                 social: "Strictly solitary creatures except during mating or when mothers raise calves.",
                 lookFor: "Early morning or late afternoon foraging near dense thickets in the Mara Triangle.",
                 factTitle: "Prehistoric Speed",
-                fact: "Cheetahs can't roar like lions! Instead, they can purr, chirp, meow, and make a bird-like chirping sound.",
+                fact: "Foxes have excellent hearing and can detect small animals moving underground.",
                 // soundUrl: "assets/audio/rhino_snort.mp3" // UNCOMMENT & ADD MP3 PATH HERE
             },
             whitedove: {
@@ -218,7 +218,7 @@
                 social: "Strictly solitary creatures except during mating or when mothers raise calves.",
                 lookFor: "Early morning or late afternoon foraging near dense thickets in the Mara Triangle.",
                 factTitle: "Prehistoric Speed",
-                fact: "Cheetahs can't roar like lions! Instead, they can purr, chirp, meow, and make a bird-like chirping sound.",
+                fact: "White doves can find their way home from far away.",
                 // soundUrl: "assets/audio/rhino_snort.mp3" // UNCOMMENT & ADD MP3 PATH HERE
             },
             parrot: {
@@ -234,7 +234,7 @@
                 social: "Strictly solitary creatures except during mating or when mothers raise calves.",
                 lookFor: "Early morning or late afternoon foraging near dense thickets in the Mara Triangle.",
                 factTitle: "Prehistoric Speed",
-                fact: "Cheetahs can't roar like lions! Instead, they can purr, chirp, meow, and make a bird-like chirping sound.",
+                fact: "Some parrots can imitate human speech and other sounds.",
                 // soundUrl: "assets/audio/rhino_snort.mp3" // UNCOMMENT & ADD MP3 PATH HERE
             },
             pigeon: {
@@ -250,7 +250,7 @@
                 social: "Strictly solitary creatures except during mating or when mothers raise calves.",
                 lookFor: "Early morning or late afternoon foraging near dense thickets in the Mara Triangle.",
                 factTitle: "Prehistoric Speed",
-                fact: "Cheetahs can't roar like lions! Instead, they can purr, chirp, meow, and make a bird-like chirping sound.",
+                fact: "Pigeons have an amazing ability to find their way home, even when released far away from where they live!",
                 // soundUrl: "assets/audio/rhino_snort.mp3" // UNCOMMENT & ADD MP3 PATH HERE
             },
             eagle: {
@@ -266,7 +266,7 @@
                 social: "Strictly solitary creatures except during mating or when mothers raise calves.",
                 lookFor: "Early morning or late afternoon foraging near dense thickets in the Mara Triangle.",
                 factTitle: "Prehistoric Speed",
-                fact: "Cheetahs can't roar like lions! Instead, they can purr, chirp, meow, and make a bird-like chirping sound.",
+                fact: "Eagles have very sharp eyesight that helps them spot prey from far away.",
                 // soundUrl: "assets/audio/rhino_snort.mp3" // UNCOMMENT & ADD MP3 PATH HERE
             },
             hawk: {
@@ -282,7 +282,7 @@
                 social: "Strictly solitary creatures except during mating or when mothers raise calves.",
                 lookFor: "Early morning or late afternoon foraging near dense thickets in the Mara Triangle.",
                 factTitle: "Prehistoric Speed",
-                fact: "Cheetahs can't roar like lions! Instead, they can purr, chirp, meow, and make a bird-like chirping sound.",
+                fact: "Hawks use their sharp talons to catch and hold their prey.",
                 // soundUrl: "assets/audio/rhino_snort.mp3" // UNCOMMENT & ADD MP3 PATH HERE
             },
             owl: {
@@ -298,7 +298,7 @@
                 social: "Strictly solitary creatures except during mating or when mothers raise calves.",
                 lookFor: "Early morning or late afternoon foraging near dense thickets in the Mara Triangle.",
                 factTitle: "Prehistoric Speed",
-                fact: "Cheetahs can't roar like lions! Instead, they can purr, chirp, meow, and make a bird-like chirping sound.",
+                fact: "Many owls can fly very quietly, helping them sneak up on their prey.",
                 // soundUrl: "assets/audio/rhino_snort.mp3" // UNCOMMENT & ADD MP3 PATH HERE
             },
         };
