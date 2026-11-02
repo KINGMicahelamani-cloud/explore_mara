@@ -504,3 +504,9 @@ audio.play();
     title: "Our Location",
   });
 }
+document.querySelectorAll('.mobile-nav-link').forEach(link => {
+  link.addEventListener('click', (event) => {
+    event.preventDefault(); // Stops the '#' from appending to the URL
+    // Your toggle or navigation logic here
+  });
+});
